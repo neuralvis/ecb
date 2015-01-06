@@ -63,7 +63,7 @@
   :group 'ecb-layout
   :prefix "ecb-create-layout-")
 
-(defcustom ecb-create-layout-file "~/.ecb-user-layouts.el"
+(defcustom ecb-create-layout-file "~/cfg/.ecb/.ecb-user-layouts.el"
   "*File where all layouts created by `ecb-create-new-layout' are stored."
   :group 'ecb-create-layout
   :type 'file)
