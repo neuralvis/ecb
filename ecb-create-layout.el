@@ -63,7 +63,7 @@
   :group 'ecb-layout
   :prefix "ecb-create-layout-")
 
-(defcustom ecb-create-layout-file "~/cfg/.ecb/.ecb-user-layouts.el"
+(defcustom ecb-create-layout-file "~/develop/cfg/.ecb/.ecb-user-layouts.el"
   "*File where all layouts created by `ecb-create-new-layout' are stored."
   :group 'ecb-create-layout
   :type 'file)
@@ -225,7 +225,7 @@
         (setq ecb-create-layout-old-modeline-map nil))
     (setq ecb-create-layout-old-after-frame-h nil)
     (setq ecb-create-layout-old-before-frame-h nil))
-  
+
   (setq ecb-create-layout-generated-lisp nil)
   (setq ecb-create-layout-gen-counter 0))
 
@@ -248,7 +248,7 @@ other other frame!"
     (ecb-activate))
   (ad-disable-advice 'delete-frame 'after 'ecb-create-layout)
   (ad-activate 'delete-frame))
-  
+
 
 (defun ecb-create-layout-frame-ok ()
   "Return not nil if current frame is the `ecb-create-layout-frame'"
@@ -445,7 +445,7 @@ DELETE-FRAME is not nil then the new created frame will be deleted and the
      `(if (fboundp (quote ,func-sym))
           (,func-sym)
         (ecb-set-default-ecb-buffer)))))
-  
+
 
 (defun ecb-create-layout-set-buffer-to-type (&optional type)
   "Give current ECB-buffer a type."
@@ -610,7 +610,7 @@ never selects the edit-window."
 
   (define-key ecb-create-layout-mode-map "." 'self-insert-command)
   (define-key ecb-create-layout-mode-map "-" 'self-insert-command)
-  
+
   (if ecb-running-xemacs
       (define-key ecb-create-layout-mode-map (kbd "<BS>")
         'delete-backward-char)
@@ -761,7 +761,7 @@ never selects the edit-window."
     (setq after-make-frame-functions nil)
     (setq ecb-create-layout-old-before-frame-h before-make-frame-hook)
     (setq before-make-frame-hook nil))
-    
+
   ;; saving old frame
   (setq ecb-create-layout-old-frame (selected-frame))
 
