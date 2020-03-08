@@ -32,7 +32,7 @@
 
 ;;; Code:
 
-;; here a load-file is better because then we don´t need adding the html
+;; here a load-file is better because then we donï¾´t need adding the html
 ;; subdir to the load-path.
 (load-file "./html-helper.el")
 (require 'ecb)
@@ -208,7 +208,7 @@
                         " for information about changes in the new version. ")
         ,(h-sub-section "Bugfixes for ECB 1.90 available. (2003-02-06)"
                         "Click " (h-link "downloads.html" "here") " to get it.")
-        ,(h-sub-section "Usermanual now available ín PDF-format! (2003-02-03)"
+        ,(h-sub-section "Usermanual now available ï¿­n PDF-format! (2003-02-03)"
                         "Click " (h-link "downloads.html" "here") " to get
                         it.")
         ,(h-sub-section "ECB 1.80 is now an official XEmacs package! (2003-02-01)"

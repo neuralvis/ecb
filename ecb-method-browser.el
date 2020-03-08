@@ -3030,7 +3030,7 @@ rebuilding a not visible source-buffer."
                                        (widen)
                                        (ecb-fetch-semantic-tags full-semantic))))))
       ;; If the `ecb-fetch-semantic-tags' has done no reparsing but
-      ;; only used it´s still valid cache then neither the hooks of
+      ;; only used itï¾´s still valid cache then neither the hooks of
       ;; `semantic-after-toplevel-cache-change-hook' nor the hooks in
       ;; `semantic-after-partial-cache-change-hook' are evaluated and
       ;; therefore `ecb-rebuild-methods-buffer-with-tagcache' was not called.

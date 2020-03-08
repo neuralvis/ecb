@@ -113,7 +113,7 @@ available."
                   ;; for finding the source-file of `thing-of-interest' would
                   ;; be extracted in an own function of JDE.
                   
-                  ;; we have found the java-sourcefile. So let´s display its
+                  ;; we have found the java-sourcefile. So letï¾´s display its
                   ;; contents in the method-buffer of ECB - we must select the
                   ;; methods-window before because otherwise our automatically
                   ;; buffer-sync would resync with current java-source-file.

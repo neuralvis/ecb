@@ -1193,7 +1193,7 @@ Here is an example of a tree-buffer:
         leaf-node-2  -----|-----[tree-nodes]
         leaf-node-3  -----|
         leaf-node-4  -----|
-    [+] collapsed  -------´
+    [+] collapsed  -------ï¾´
      |
      `-----------------[expand/collapse-symbol]
 @end group
@@ -2338,7 +2338,7 @@ the value of @code{case-fold-search}.
 
 Tip: The @code{ecb-minor-mode} offers you in the @code{ecb-mode-map}
 (customizable via @code{ecb-key-map}) some keys for selecting every window
-of the ecb-frame. This makes window-selection a child´s play. For
+of the ecb-frame. This makes window-selection a childï¾´s play. For
 example you can jump into the method-window by hitting @kbd{C-c . gm}.
 
 @node Personal tree-keybindings, Using popup-menus, Incremental search, Using the keyboard
@@ -2509,7 +2509,7 @@ of the current ECB-layout there are two alternatives:
 @item If the function is contained in
 @code{ecb-layout-always-operate-in-edit-window} the right edit-window
 is selected (depends on the value of the option
-@code{ecb-mouse-click-destination}) and does then it´s job.
+@code{ecb-mouse-click-destination}) and does then itï¾´s job.
 
 @item Otherwise the behavior depends on the value of the option
 @code{ecb-advice-window-functions-signal-error}.
@@ -2552,7 +2552,7 @@ If called in the compile window there are two alternatives:
 If the function is contained in
 @code{ecb-layout-always-operate-in-edit-window} the right edit-window
 is selected (depends on the value of the option
-@code{ecb-mouse-click-destination}) and then it does it´s job.
+@code{ecb-mouse-click-destination}) and then it does itï¾´s job.
 
 @item
 Otherwise the behavior depends on the value of the option
@@ -6616,7 +6616,7 @@ not required there.
 @item
 Keys can be written by their ASCII code, using a backslash followed by
 up to six octal digits. This is the only way to represent keys with
-codes above ÿ.
+codes above ï¿¿.
 
 @item
 One or more prefixes M- (meta), C- (control), S- (shift), A- (alt), H-
@@ -10252,7 +10252,7 @@ basic face-settings can be easily changed just by customizing the face
 @code{ecb-default-highlight-face}!
 
 @item ecb-directories-general-face:
-Basic face for the ECB directories buffer. It´s recommended to define
+Basic face for the ECB directories buffer. Itï¾´s recommended to define
 here the font-family, the font-size, the basic color etc.
 
 @item ecb-directory-face:
@@ -10299,7 +10299,7 @@ Define face used for highlighting current history-entry in the history
 buffer.
 
 @item ecb-history-general-face:
-Basic face for the ECB history buffer. It´s recommended to define here
+Basic face for the ECB history buffer. Itï¾´s recommended to define here
 the font-family, the font-size, the basic color etc.
 
 @item ecb-history-indirect-buffer-face:
@@ -10317,7 +10317,7 @@ Define face used for highlighting current method, class or variable in
 the methods buffer.
 
 @item ecb-methods-general-face:
-Basic face for the ECB methods buffer. It´s recommended to define here
+Basic face for the ECB methods buffer. Itï¾´s recommended to define here
 the font-family, the font-size, the basic color etc.
 
 @item ecb-method-non-semantic-face:
@@ -10343,7 +10343,7 @@ buffer.
 Define a face for displaying sources in the directories buffer.
 
 @item ecb-sources-general-face:
-Basic face for the ECB sources buffer. It´s recommended to define here
+Basic face for the ECB sources buffer. Itï¾´s recommended to define here
 the font-family, the font-size, the basic color etc.
 
 @item ecb-source-read-only-face
@@ -10988,7 +10988,7 @@ This command creates a problem-report buffer for you. After that you
 get a menu ``Mail'' (dependent on the mail-package used, the menu can
 have a different name) with commands to send the problem report. But
 for this the variable @code{mail-user-agent} must be configured right for
-your system. If you can´t get working this mechanism you can simply
+your system. If you canï¾´t get working this mechanism you can simply
 copy the whole problem-report buffer after filling it out and sending
 it with your standard mail-client to
 @email{ecb-list@@lists.sourceforge.net}!
@@ -11235,7 +11235,7 @@ There are two basic faces:
 @item @code{ecb-default-general-face}:
 Basic face for displaying an ECB-tree-buffer.
 
-It´s recommended to define the font-family, the font-size, the basic
+Itï¾´s recommended to define the font-family, the font-size, the basic
 color etc. with this face.
 
 In GNU Emacs 21.X all faces (even the face
@@ -12665,7 +12665,7 @@ Here is an example of a tree-buffer:
             <leaf-node-2>  -----|-----[tree-nodes]
             <leaf-node-3>  -----|
             <leaf-node-4>  -----|
-        [+] <collapsed>  -------´
+        [+] <collapsed>  -------ï¾´
          |
          `-----------------[expand/collapse-symbol]
 @end group
@@ -14976,7 +14976,7 @@ very well under all circumstances!
 @subsubsection Package calendar.el
 
 @cindex calendar package
-With activated ECB @code{calendar} does not shrink it´s window to the small
+With activated ECB @code{calendar} does not shrink itï¾´s window to the small
 size but splits the window equally. But if you add this to your
 @file{.emacs} it works:
 

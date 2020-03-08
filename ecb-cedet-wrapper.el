@@ -1,10 +1,12 @@
 ;;; ecb-cedet-wrapper.el -- define wrappers for all cedet funcs/vars
 
-;; Copyright (C) 2000 - 2009 Klaus Berndl,
+;; Copyright (C) 2000 - 2015 Klaus Berndl,
+;;                           Ryan Ware,
 ;;                           Free Software Foundation, Inc.
 
 ;; Author: Klaus Berndl <klaus.berndl@sdm.de>
-;; Maintainer: Klaus Berndl <klaus.berndl@sdm.de>
+;;         Ryan Ware <ryan.r.ware@intel.com>
+;; Maintainer: Ryan Ware <ryan.r.ware@intel.com>
 ;; Keywords: browser, code, programming, tools
 ;; Created: 2009
 
@@ -79,6 +81,8 @@ The meaning is as follows:
 2. Minor-version
 3. 0 = alpha, 1 = beta, 2 = pre, 3 = nothing \(e.g. \"1.4\"), 4 = . \(e.g. \"1.4.3\"
 4. Subversion after the alpha, beta, pre or .")
+
+;; The constraint on a max version of ECB has been removed.
 
 (defun ecb-cedet-missing-libs ()
   "Return a list of names of missing cedet-libs.
@@ -258,11 +262,6 @@ If ECB detects a problem it is reported and then an error is thrown."
       semantic-format-use-images-flag))
 
 ;; -- an alias for all functions of cedet currently used by ECB ---
-
-;; (delq nil (mapcar (function (lambda (f)
-;;                               (if (not (fboundp f))
-;;                                   f)))
-;;                   ecb--cedet-function-list))
 
 (defconst ecb--cedet-function-list
   '(

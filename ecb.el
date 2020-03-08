@@ -1420,7 +1420,7 @@ value of VAR is as before storing a NEW-VALUE for variable-symbol VAR."
         
         (condition-case err-obj
             ;; enable mouse-tracking for the ecb-tree-buffers; we do this after
-            ;; running the personal hooks because if a user put´s activation of
+            ;; running the personal hooks because if a user putï¾´s activation of
             ;; follow-mouse.el (`turn-on-follow-mouse') in the
             ;; `ecb-activate-hook' then our own ECB mouse-tracking must be
             ;; activated later. If `turn-on-follow-mouse' would be activated
@@ -1617,7 +1617,7 @@ value of VAR is as before storing a NEW-VALUE for variable-symbol VAR."
         (ecb-edit-area-creators-init))
 
       ;; we can safely do the kills because killing non existing buffers
-      ;; doesn´t matter. We kill these buffers because some customize-options
+      ;; doesnï¾´t matter. We kill these buffers because some customize-options
       ;; takes only effect when deactivating/reactivating ECB, or to be more
       ;; precise when creating the tree-buffers again.
       (dolist (tb-elem (ecb-ecb-buffer-registry-name-list 'only-tree-buffers))

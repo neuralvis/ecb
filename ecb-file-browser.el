@@ -1962,9 +1962,9 @@ according to `ecb-sources-sort-method'."
 	    (dolist (file sorted-files)
 	      (if (ecb-file-directory-p (ecb-fix-filename dir file))
 		  (when (not (ecb-check-dir-exclude file))
-		    ;;                 (when (not (ecb-file-accessible-directory-p file))
-		    ;;                   (ecb-merge-face-into-text file
-		    ;;                                             ecb-directory-not-accessible-face))
+;;                 (when (not (ecb-file-accessible-directory-p file))
+;;                   (ecb-merge-face-into-text file
+;;                                             ecb-directory-not-accessible-face))
 		    (setq subdirs (append subdirs (list file))))
 		(when (and (not (member file cvsignore-files))
 			   (or (ecb-match-regexp-list file (cadr source-regexps))

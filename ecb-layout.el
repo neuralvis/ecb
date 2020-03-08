@@ -67,7 +67,7 @@
 ;;     `delete-window' function.
 ;;   + These functions can only use `delete-window' of the set of maybe
 ;;     adviced window functions, because of a bug in advice.el only one
-;;     function´s advice can be deactivated within a advice itself!
+;;     functionï¾´s advice can be deactivated within a advice itself!
 ;; - What must they do: Doing the appropriate action (e.g.
 ;;   `ecb-delete-window-ecb-windows-left' must delete the window. This action
 ;;   must be done appropriate for the current ECB-layout type (see
@@ -3526,7 +3526,7 @@ unsplitted edit-window then nothing is done. If called in an ecb-window of the
 current ECB-layout there are two alternatives:
 - If the function is contained in `ecb-layout-always-operate-in-edit-window'
   the right edit-window is selected \(depends on the value of the option
-  `ecb-mouse-click-destination') and does then it´s job.
+  `ecb-mouse-click-destination') and does then itï¾´s job.
 - Otherwise the behavior depends on the value of the option
   `ecb-advice-window-functions-signal-error'.
 
@@ -3626,7 +3626,7 @@ ecb-windows nor the compile-window will be destroyed!
   alternatives:
   + If the function is contained in `ecb-layout-always-operate-in-edit-window'
     the right edit-window is selected \(depends on the value of the option
-    `ecb-mouse-click-destination') and then it does it´s job.
+    `ecb-mouse-click-destination') and then it does itï¾´s job.
   + Otherwise the behavior depends on the value of the option
   `ecb-advice-window-functions-signal-error'.
 

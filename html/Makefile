@@ -32,8 +32,6 @@
 # Or type "make all" or "make upload-build" to generate the whole website
 # and build an uploadable ecb-website.tar.gz file.
 
-# $Id$
-
 EMACS=emacs
 
 include ../ecb-makedef.mk
